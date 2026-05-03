@@ -303,8 +303,8 @@
     <h1>탭별 수식 설명 자료</h1>
     <p class="lede">단일 전류 루프와 전류-속도 캐스케이드 탭에서 쓰는 PI 제어기, 플랜트, 지연, 센서 필터, 보상 OFF, 안정성·응답성 지표 수식을 한곳에 정리했습니다.</p>
     <div class="toolbar">
-      <a class="primary" href="./bode_lab_탭별_수식_설명자료.md">Markdown 원문</a>
-      <a href="https://github.com/KLab-Live/Bode_Lab">Bode Lab 저장소</a>
+      <a class="primary" href="#content">문서 보기</a>
+      <a href="/">개발자 페이지</a>
     </div>
   </header>
 
@@ -318,7 +318,7 @@
 
     <main>
       <article id="content">
-        <p class="status">Markdown 문서를 불러오는 중입니다.</p>
+        <p class="status">문서를 불러오는 중입니다.</p>
       </article>
     </main>
   </div>
@@ -399,7 +399,7 @@
           await window.MathJax.typesetPromise([content, toc]);
         }
       } catch (error) {
-        content.innerHTML = `<p class="status">문서를 불러오지 못했습니다. 같은 폴더에 Markdown 파일이 있는지 확인하세요.<br>${error.message}</p>`;
+        content.innerHTML = `<p class="status">문서를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>`;
       }
     }
 
