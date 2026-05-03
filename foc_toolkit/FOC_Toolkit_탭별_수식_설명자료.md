@@ -834,19 +834,3 @@ $$
 | 그 외 | 엔벨로프 안, 해당 영역 색상 표시 |
 
 전압 게이트는 본 장 식이 $R_s=0$ 폐형해라 토크 한계만으로는 잡히지 않는 $R_s$ 강하 효과를 차단하기 위한 안전장치다. 정토크 영역에선 $I_d^{env}=0$ 이라 $V_{phase}^{env}$ 가 $I_d=0$ 가정과 동치이고, 약계자/MTPV 영역에선 $I_d^{env}<0$ 이 $R_s$ 강하 일부를 보상해 FOC 가 실제 도달 가능한 점이 잘못 outside 로 걸리지 않는다.
-
-## 16. 소스 기준
-
-이 문서는 다음 파일의 계산 로직을 기준으로 작성했다.
-
-| 영역 | 주요 파일 |
-| --- | --- |
-| 계산기 목록 | `FOC_Toolkit/Models/CalculatorRegistry.swift` |
-| Clarke 변환 | `FOC_Toolkit/Engine/ClarkeTransform.swift` |
-| Park 변환 | `FOC_Toolkit/Engine/ParkTransform.swift` |
-| SVPWM | `FOC_Toolkit/Engine/SVPWMEngine.swift` |
-| SPWM | `FOC_Toolkit/Engine/SPWMEngine.swift` |
-| 단위 변환 | `FOC_Toolkit/Engine/UnitConversion.swift` |
-| SPMSM 분석 | `FOC_Toolkit/Engine/MotorAnalysis.swift` |
-| 화면 표시 수식 | `FOC_Toolkit/Views/Calculators/**` |
-
