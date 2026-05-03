@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>K-Lab Live — Developer</title>
+<title>FilterCraft — K-Lab Live</title>
+<meta name="description" content="모터·임베디드 제어용 센서 필터 설계 도구 (iOS)">
 <style>
   :root {
     --bg: #f7f8fb;
@@ -64,6 +65,10 @@
     margin-top: 0.35em;
   }
 
+  li.muted {
+    color: var(--muted);
+  }
+
   a {
     color: var(--accent);
     text-decoration: none;
@@ -72,34 +77,34 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .back {
+    display: inline-block;
+    margin-top: 2em;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>K-Lab Live</h1>
-  <p class="intro">iOS / macOS App 개발</p>
+  <h1>FilterCraft</h1>
+  <p class="intro">모터·임베디드 제어용 센서 필터 설계 도구 (iOS)</p>
 
   <section class="section">
-    <h2>FOC Toolkit</h2>
-    <ul>
-      <li><a href="https://apps.apple.com/app/id6762969707">App Store</a></li>
-      <li><a href="./foc_toolkit/">탭별 수식 설명 자료</a></li>
-      <li><a href="https://klab-live.github.io/foc-toolkit-privacy/">개인정보 처리방침</a></li>
-    </ul>
+    <h2>소개</h2>
+    <p style="margin:0;">
+      1차/2차 LPF, Recursive Moving Average, EMA 필터의 설계, 연속·이산 주파수 응답 분석,
+      위상 지연 보상, Embedded C 코드 생성을 하나의 작업 공간에서 제공합니다.
+    </p>
   </section>
 
   <section class="section">
-    <h2>Bode Lab</h2>
+    <h2>링크</h2>
     <ul>
-      <li><a href="./bode_lab/">탭별 수식 설명 자료</a></li>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2>FilterCraft</h2>
-    <ul>
-      <li><a href="./filtercraft/">앱 소개</a></li>
-      <li><a href="./filtercraft/privacy/">개인정보 처리방침</a></li>
+      <li class="muted">App Store (출시 예정)</li>
+      <li><a href="./privacy/">개인정보 처리방침</a></li>
+      <li class="muted">탭별 수식 설명 자료 (준비 중)</li>
     </ul>
   </section>
 
@@ -109,6 +114,8 @@
       <li><a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
     </ul>
   </section>
+
+  <a class="back" href="../">← K-Lab Live 메인</a>
 </main>
 </body>
 </html>
