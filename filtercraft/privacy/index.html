@@ -1,426 +1,221 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FilterCraft 개인정보 처리방침 — Privacy Policy</title>
-<meta name="description" content="FilterCraft iOS 앱 개인정보 처리방침 / FilterCraft iOS App Privacy Policy">
-<style>
-  :root {
-    --bg: #f7f8fb;
-    --paper: #ffffff;
-    --ink: #1f2633;
-    --muted: #667085;
-    --line: #dce2ec;
-    --accent: #0b66d8;
-    --accent-soft: #e8f1ff;
-  }
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  * { box-sizing: border-box; }
+    <title>FilterCraft — Privacy Policy | FilterCraft</title>
+    <meta name="description" content="Privacy Policy for the FilterCraft iOS app">
+    <meta property="og:title" content="FilterCraft — Privacy Policy">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:description" content="Privacy Policy for the FilterCraft iOS app">
+    <meta property="og:url" content="https://klab-live.github.io/filtercraft/privacy/">
+    <meta property="og:site_name" content="FilterCraft">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="FilterCraft — Privacy Policy">
 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
-    line-height: 1.72;
-    word-break: keep-all;
-    overflow-wrap: anywhere;
-  }
+    <link rel="stylesheet" href="/foc_toolkit/privacy/assets/css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://klab-live.github.io/filtercraft/privacy/">FilterCraft</a></h1>
 
-  header {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 36px 24px 8px;
-  }
+        <p>Privacy Policy for the FilterCraft iOS app</p>
 
-  .eyebrow {
-    margin: 0 0 8px;
-    color: var(--accent);
-    font-size: 0.82rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
+        <p class="view"><a href="https://klab-live.github.io/filtercraft/">← FilterCraft</a></p>
+      </header>
+      <section>
 
-  h1 {
-    margin: 0;
-    font-size: clamp(1.6rem, 3vw, 2.2rem);
-    line-height: 1.2;
-  }
+      <h1 id="filtercraft-개인정보-처리방침">FilterCraft 개인정보 처리방침</h1>
 
-  .meta {
-    margin: 6px 0 0;
-    color: var(--muted);
-    font-size: 0.92rem;
-  }
+<p><strong>최종 수정일</strong>: 2026-05-03</p>
 
-  .lang-switch {
-    margin-top: 14px;
-    font-size: 0.92rem;
-  }
+<h2 id="1-서문">1. 서문</h2>
 
-  .lang-switch a {
-    color: var(--accent);
-    text-decoration: none;
-    margin-right: 12px;
-  }
+<p>Kangseok Lee(이하 “개발자”)는 FilterCraft(이하 “앱”)의 이용자 개인정보 보호를 중요하게 생각하며, 「개인정보 보호법」 및 관련 법령을 준수합니다. 본 처리방침은 앱 이용 과정에서 수집되는 정보와 처리 방침을 설명합니다.</p>
 
-  main {
-    max-width: 760px;
-    margin: 0 auto 64px;
-    padding: 0 24px;
-  }
+<h2 id="2-수집하는-개인정보">2. 수집하는 개인정보</h2>
 
-  article {
-    padding: 24px 28px;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--paper);
-    box-shadow: 0 8px 30px rgba(23, 35, 58, 0.06);
-  }
+<h3 id="21-개발자가-직접-수집하는-정보">2.1 개발자가 직접 수집하는 정보</h3>
 
-  article + article {
-    margin-top: 20px;
-  }
+<p>개발자는 앱 이용 과정에서 <strong>어떠한 개인정보도 직접 수집하지 않습니다</strong>. 필터 설계 입력값, 분석 설정, 코드 생성 옵션 등 앱 사용 중 생성되는 데이터는 이용자의 기기에만 저장되며 개발자의 서버로 전송되지 않습니다.</p>
 
-  h2 {
-    margin: 1.6em 0 0.5em;
-    padding-top: 0.4em;
-    border-top: 1px solid var(--line);
-    font-size: 1.25rem;
-    line-height: 1.3;
-  }
+<h3 id="22-광고-파트너google-admob를-통해-수집되는-정보">2.2 광고 파트너(Google AdMob)를 통해 수집되는 정보</h3>
 
-  article > h2:first-child,
-  article > section:first-child > h2:first-child {
-    margin-top: 0.2em;
-    padding-top: 0;
-    border-top: none;
-  }
+<p>앱은 Google AdMob을 통해 배너 광고를 표시합니다. Google 및 광고 파트너는 광고 제공과 측정을 위해 다음 정보를 수집할 수 있습니다.</p>
 
-  h3 {
-    margin: 1.3em 0 0.4em;
-    font-size: 1.05rem;
-    line-height: 1.35;
-  }
+<ul>
+  <li>광고 식별자 (IDFA — 이용자 동의 시에만)</li>
+  <li>기기 정보 (기기 모델, OS 버전, 언어 설정 등)</li>
+  <li>대략적 위치 정보 (IP 주소 기반의 국가/지역 수준)</li>
+  <li>광고 상호작용 데이터 (노출, 클릭, 전환 등)</li>
+</ul>
 
-  p {
-    margin: 0.7em 0;
-  }
+<p>Google의 데이터 처리에 관한 자세한 내용은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요.</p>
 
-  ul {
-    margin: 0.7em 0;
-    padding-left: 1.4em;
-  }
+<h3 id="23-동의-관리google-user-messaging-platform">2.3 동의 관리(Google User Messaging Platform)</h3>
 
-  li + li {
-    margin-top: 0.35em;
-  }
+<p>GDPR 등 적용 지역의 광고 개인화 동의 폼을 제공하기 위해 Google User Messaging Platform(UMP)을 사용합니다. UMP는 이용자의 동의 상태를 기기 또는 Google의 동의 시스템에 저장합니다.</p>
 
-  a {
-    color: var(--accent);
-  }
+<h3 id="24-진단-정보firebase-crashlytics">2.4 진단 정보(Firebase Crashlytics)</h3>
 
-  strong {
-    color: var(--ink);
-  }
+<p>앱 안정성 향상을 위해 Firebase Crashlytics를 사용합니다. 앱이 비정상 종료되거나 오류가 발생할 때 다음 진단 정보가 수집되어 개발자에게 전송됩니다.</p>
 
-  .back {
-    display: inline-block;
-    margin-top: 2em;
-    color: var(--muted);
-    font-size: 0.92rem;
-    text-decoration: none;
-  }
+<ul>
+  <li>충돌 발생 시각, 충돌 스택 추적, 기기 모델, OS 버전, 앱 버전, 언어 설정</li>
+  <li>기기 메모리/디스크 등 시스템 상태</li>
+  <li>익명 설치 식별자 (개인 식별자가 아닌 임시 ID)</li>
+</ul>
 
-  hr.lang {
-    margin: 40px 0 0;
-    border: 0;
-    height: 1px;
-    background: var(--line);
-  }
-</style>
-</head>
-<body>
+<p>이 정보는 광고 식별자(IDFA)와 연결되지 않으며, 이용자 신원과도 연결되지 않습니다. Firebase의 데이터 처리에 관한 자세한 내용은 <a href="https://firebase.google.com/support/privacy">Firebase 개인정보처리방침</a>을 참고하세요.</p>
 
-<header>
-  <p class="eyebrow">FilterCraft</p>
-  <h1>개인정보 처리방침 / Privacy Policy</h1>
-  <p class="meta">최종 수정일 / Last updated: 2026-05-03</p>
-  <p class="lang-switch">
-    <a href="#ko">한국어</a>
-    <a href="#en">English</a>
-  </p>
-</header>
+<h2 id="3-정보-이용-목적">3. 정보 이용 목적</h2>
 
-<main>
+<ul>
+  <li>앱 내 배너 광고 표시</li>
+  <li>광고 성과 측정 및 부정 클릭 방지</li>
+  <li>이용자 동의 시 맞춤형 광고 제공</li>
+  <li>앱 충돌 및 오류 진단을 통한 안정성 향상</li>
+</ul>
 
-<article id="ko">
-  <h2>1. 서문</h2>
-  <p>
-    Kangseok Lee(이하 “개발자”)는 FilterCraft(이하 “앱”)의 이용자 개인정보 보호를
-    중요하게 생각하며, 「개인정보 보호법」 및 관련 법령을 준수합니다. 본 처리방침은
-    앱 이용 과정에서 수집되는 정보와 처리 방침을 설명합니다.
-  </p>
+<h2 id="4-보관-및-파기">4. 보관 및 파기</h2>
 
-  <h2>2. 수집하는 개인정보</h2>
+<h3 id="41-로컬-저장-데이터">4.1 로컬 저장 데이터</h3>
+<p>앱이 기기에 저장하는 입력값, 설정, 상태 정보는 앱 삭제 시 자동으로 함께 제거됩니다.</p>
 
-  <h3>2.1 개발자가 직접 수집하는 정보</h3>
-  <p>
-    개발자는 앱 이용 과정에서 <strong>어떠한 개인정보도 직접 수집하지 않습니다</strong>.
-    필터 설계 입력값, 분석 설정, 코드 생성 옵션 등 앱 사용 중 생성되는 데이터는
-    이용자의 기기에만 저장되며 개발자의 서버로 전송되지 않습니다.
-  </p>
+<h3 id="42-제3자-보관-정보">4.2 제3자 보관 정보</h3>
+<p>광고 파트너 및 진단 서비스가 수집한 정보의 보관 기간은 해당 업체의 정책을 따릅니다. 자세한 내용은 <a href="https://policies.google.com/technologies/retention">Google 데이터 보관 정책</a>을 참고하세요.</p>
 
-  <h3>2.2 광고 파트너(Google AdMob)를 통해 수집되는 정보</h3>
-  <p>
-    앱은 Google AdMob을 통해 배너 광고를 표시합니다. Google 및 광고 파트너는 광고
-    제공과 측정을 위해 다음 정보를 수집할 수 있습니다.
-  </p>
-  <ul>
-    <li>광고 식별자 (IDFA — 이용자 동의 시에만)</li>
-    <li>기기 정보 (기기 모델, OS 버전, 언어 설정 등)</li>
-    <li>대략적 위치 정보 (IP 주소 기반의 국가/지역 수준)</li>
-    <li>광고 상호작용 데이터 (노출, 클릭, 전환 등)</li>
-  </ul>
-  <p>
-    Google의 데이터 처리에 관한 자세한 내용은
-    <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요.
-  </p>
+<h2 id="5-제3자-제공">5. 제3자 제공</h2>
 
-  <h3>2.3 동의 관리(Google User Messaging Platform)</h3>
-  <p>
-    GDPR 등 적용 지역의 광고 개인화 동의 폼을 제공하기 위해 Google User Messaging
-    Platform(UMP)을 사용합니다. UMP는 이용자의 동의 상태를 기기 또는 Google의 동의
-    시스템에 저장합니다.
-  </p>
+<p>개발자는 이용자의 개인정보를 제3자에게 별도로 제공하지 않습니다. 다만 앱에 표시되는 광고 및 진단과 관련해 Google AdMob, Google User Messaging Platform, Firebase Crashlytics가 데이터를 처리합니다.</p>
 
-  <h3>2.4 진단 정보(Firebase Crashlytics)</h3>
-  <p>
-    앱 안정성 향상을 위해 Firebase Crashlytics를 사용합니다. 앱이 비정상 종료되거나
-    오류가 발생할 때 다음 진단 정보가 수집되어 개발자에게 전송됩니다.
-  </p>
-  <ul>
-    <li>충돌 발생 시각, 충돌 스택 추적, 기기 모델, OS 버전, 앱 버전, 언어 설정</li>
-    <li>기기 메모리/디스크 등 시스템 상태</li>
-    <li>익명 설치 식별자 (개인 식별자가 아닌 임시 ID)</li>
-  </ul>
-  <p>
-    이 정보는 광고 식별자(IDFA)와 연결되지 않으며, 이용자 신원과도 연결되지 않습니다.
-    Firebase의 데이터 처리에 관한 자세한 내용은
-    <a href="https://firebase.google.com/support/privacy">Firebase 개인정보처리방침</a>을
-    참고하세요.
-  </p>
+<h2 id="6-이용자의-권리">6. 이용자의 권리</h2>
 
-  <h2>3. 정보 이용 목적</h2>
-  <ul>
-    <li>앱 내 배너 광고 표시</li>
-    <li>광고 성과 측정 및 부정 클릭 방지</li>
-    <li>이용자 동의 시 맞춤형 광고 제공</li>
-    <li>앱 충돌 및 오류 진단을 통한 안정성 향상</li>
-  </ul>
+<ul>
+  <li><strong>추적 거부</strong>: iOS 설정 → 개인정보 보호 및 보안 → 추적에서 앱별 추적을 거부할 수 있습니다. 거부 시 맞춤형이 아닌 일반 광고가 제공됩니다.</li>
+  <li><strong>광고 개인화 동의 철회</strong>: GDPR/PIPA 대상 지역 이용자는 앱 내 동의 관리 화면 또는 기기 설정에서 동의를 철회할 수 있습니다.</li>
+  <li><strong>진단 정보 수집 중단</strong>: Firebase Crashlytics를 통한 진단 정보 수집을 완전히 중단하려면 앱을 삭제하시기 바랍니다. 충돌 데이터는 광고 식별자(IDFA)와 연결되지 않습니다.</li>
+  <li><strong>문의 및 이의 제기</strong>: 본 처리방침에 관한 문의는 아래 연락처로 접수 가능합니다.</li>
+</ul>
 
-  <h2>4. 보관 및 파기</h2>
+<h2 id="7-14세-미만-아동의-개인정보">7. 14세 미만 아동의 개인정보</h2>
 
-  <h3>4.1 로컬 저장 데이터</h3>
-  <p>
-    앱이 기기에 저장하는 입력값, 설정, 상태 정보는 앱 삭제 시 자동으로 함께
-    제거됩니다.
-  </p>
+<p>본 앱은 14세 미만 아동을 주 대상으로 하지 않으며, 해당 이용자의 개인정보를 의도적으로 수집하지 않습니다.</p>
 
-  <h3>4.2 제3자 보관 정보</h3>
-  <p>
-    광고 파트너 및 진단 서비스가 수집한 정보의 보관 기간은 해당 업체의 정책을
-    따릅니다. 자세한 내용은
-    <a href="https://policies.google.com/technologies/retention">Google 데이터 보관 정책</a>을
-    참고하세요.
-  </p>
+<h2 id="8-처리방침-변경">8. 처리방침 변경</h2>
 
-  <h2>5. 제3자 제공</h2>
-  <p>
-    개발자는 이용자의 개인정보를 제3자에게 별도로 제공하지 않습니다. 다만 앱에
-    표시되는 광고 및 진단과 관련해 Google AdMob, Google User Messaging Platform,
-    Firebase Crashlytics가 데이터를 처리합니다.
-  </p>
+<p>본 처리방침은 법령 변경 또는 서비스 변경에 따라 수정될 수 있으며, 중요 변경 시 앱 내 공지 또는 본 페이지를 통해 사전 고지합니다.</p>
 
-  <h2>6. 이용자의 권리</h2>
-  <ul>
-    <li>
-      <strong>추적 거부</strong>: iOS 설정 → 개인정보 보호 및 보안 → 추적에서
-      앱별 추적을 거부할 수 있습니다. 거부 시 맞춤형이 아닌 일반 광고가 제공됩니다.
-    </li>
-    <li>
-      <strong>광고 개인화 동의 철회</strong>: GDPR/PIPA 대상 지역 이용자는 앱 내
-      동의 관리 화면 또는 기기 설정에서 동의를 철회할 수 있습니다.
-    </li>
-    <li>
-      <strong>진단 정보 수집 중단</strong>: Firebase Crashlytics를 통한 진단 정보
-      수집을 완전히 중단하려면 앱을 삭제하시기 바랍니다. 충돌 데이터는 광고
-      식별자(IDFA)와 연결되지 않습니다.
-    </li>
-    <li>
-      <strong>문의 및 이의 제기</strong>: 본 처리방침에 관한 문의는 아래 연락처로
-      접수 가능합니다.
-    </li>
-  </ul>
+<h2 id="9-연락처">9. 연락처</h2>
 
-  <h2>7. 14세 미만 아동의 개인정보</h2>
-  <p>
-    본 앱은 14세 미만 아동을 주 대상으로 하지 않으며, 해당 이용자의 개인정보를
-    의도적으로 수집하지 않습니다.
-  </p>
+<p>개인정보 관련 문의처:</p>
 
-  <h2>8. 처리방침 변경</h2>
-  <p>
-    본 처리방침은 법령 변경 또는 서비스 변경에 따라 수정될 수 있으며, 중요 변경 시
-    앱 내 공지 또는 본 페이지를 통해 사전 고지합니다.
-  </p>
+<ul>
+  <li><strong>개발자</strong>: Kangseok Lee</li>
+  <li><strong>이메일</strong>: <a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
+</ul>
 
-  <h2>9. 연락처</h2>
-  <p>개인정보 관련 문의처</p>
-  <ul>
-    <li><strong>개발자</strong>: Kangseok Lee</li>
-    <li><strong>이메일</strong>: <a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
-  </ul>
-</article>
+<hr />
 
-<hr class="lang">
+<h1 id="privacy-policy-english">Privacy Policy (English)</h1>
 
-<article id="en">
-  <h2>1. Introduction</h2>
-  <p>
-    Kangseok Lee (“Developer”) values user privacy and complies with applicable
-    data protection regulations including Korea’s Personal Information Protection
-    Act (PIPA), the EU General Data Protection Regulation (GDPR), and the
-    California Consumer Privacy Act (CCPA). This Privacy Policy describes how
-    information is handled when you use FilterCraft (“App”).
-  </p>
+<p><strong>Last updated</strong>: 2026-05-03</p>
 
-  <h2>2. Information We Collect</h2>
+<h2 id="1-introduction">1. Introduction</h2>
 
-  <h3>2.1 Information Collected by the Developer</h3>
-  <p>
-    The Developer does <strong>not directly collect any personal information</strong>.
-    All filter design inputs, analysis settings, and code generation options
-    created during App use are stored locally on your device and are never
-    transmitted to the Developer’s servers.
-  </p>
+<p>Kangseok Lee (“Developer”) values user privacy and complies with applicable data protection regulations including Korea’s Personal Information Protection Act (PIPA), the EU General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA). This Privacy Policy describes how information is handled when you use FilterCraft (“App”).</p>
 
-  <h3>2.2 Information Collected via the Advertising Partner (Google AdMob)</h3>
-  <p>
-    The App displays banner ads via Google AdMob. Google and its advertising
-    partners may collect:
-  </p>
-  <ul>
-    <li>Advertising identifier (IDFA — only with your consent)</li>
-    <li>Device information (model, OS version, language settings, etc.)</li>
-    <li>Approximate location (country/region level, derived from IP address)</li>
-    <li>Ad interaction data (impressions, clicks, conversions)</li>
-  </ul>
-  <p>
-    For details on Google’s data practices, see the
-    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
-  </p>
+<h2 id="2-information-we-collect">2. Information We Collect</h2>
 
-  <h3>2.3 Consent Management (Google User Messaging Platform)</h3>
-  <p>
-    The App uses Google User Messaging Platform (UMP) to present ad personalization
-    consent forms in regions such as the EU. UMP stores your consent choices on
-    your device or via Google’s consent system.
-  </p>
+<h3 id="21-information-collected-by-the-developer">2.1 Information Collected by the Developer</h3>
+<p>The Developer does <strong>not directly collect any personal information</strong>. All filter design inputs, analysis settings, and code generation options created during App use are stored locally on your device and are never transmitted to the Developer’s servers.</p>
 
-  <h3>2.4 Diagnostic Data (Firebase Crashlytics)</h3>
-  <p>
-    The App uses Firebase Crashlytics to improve stability. When the App
-    encounters a crash or error, the following diagnostic data is collected and
-    sent to the Developer:
-  </p>
-  <ul>
-    <li>Crash timestamp, stack trace, device model, OS version, App version, language</li>
-    <li>Device memory/disk and similar system status</li>
-    <li>An anonymous installation identifier (a temporary ID, not a personal identifier)</li>
-  </ul>
-  <p>
-    This data is not linked to the advertising identifier (IDFA) or to your
-    identity. See the
-    <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>
-    page for details.
-  </p>
+<h3 id="22-information-collected-via-the-advertising-partner-google-admob">2.2 Information Collected via the Advertising Partner (Google AdMob)</h3>
+<p>The App displays banner ads via Google AdMob. Google and its advertising partners may collect:</p>
 
-  <h2>3. Purpose of Use</h2>
-  <ul>
-    <li>To display banner ads in the App</li>
-    <li>To measure ad performance and detect invalid clicks</li>
-    <li>To deliver personalized ads (with your consent)</li>
-    <li>To diagnose crashes and errors and improve App stability</li>
-  </ul>
+<ul>
+  <li>Advertising identifier (IDFA — only with your consent)</li>
+  <li>Device information (model, OS version, language settings, etc.)</li>
+  <li>Approximate location (country/region level, derived from IP address)</li>
+  <li>Ad interaction data (impressions, clicks, conversions)</li>
+</ul>
 
-  <h2>4. Data Retention</h2>
+<p>For details on Google’s data practices, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-  <h3>4.1 Local Data</h3>
-  <p>
-    All App data stored on your device — inputs, settings, and state — is
-    automatically removed when you uninstall the App.
-  </p>
+<h3 id="23-consent-management-google-user-messaging-platform">2.3 Consent Management (Google User Messaging Platform)</h3>
+<p>The App uses Google User Messaging Platform (UMP) to present ad personalization consent forms in regions such as the EU. UMP stores your consent choices on your device or via Google’s consent system.</p>
 
-  <h3>4.2 Third-Party Retention</h3>
-  <p>
-    Retention periods for data collected by ad partners and diagnostic services
-    are governed by their own policies. See
-    <a href="https://policies.google.com/technologies/retention">Google Data Retention Policy</a>.
-  </p>
+<h3 id="24-diagnostic-data-firebase-crashlytics">2.4 Diagnostic Data (Firebase Crashlytics)</h3>
+<p>The App uses Firebase Crashlytics to improve stability. When the App encounters a crash or error, the following diagnostic data is collected and sent to the Developer:</p>
 
-  <h2>5. Data Sharing</h2>
-  <p>
-    The Developer does not separately share user data with third parties.
-    Ad-related and diagnostic data is processed by Google AdMob, Google User
-    Messaging Platform, and Firebase Crashlytics.
-  </p>
+<ul>
+  <li>Crash timestamp, stack trace, device model, OS version, App version, language</li>
+  <li>Device memory/disk and similar system status</li>
+  <li>An anonymous installation identifier (a temporary ID, not a personal identifier)</li>
+</ul>
 
-  <h2>6. Your Rights</h2>
-  <ul>
-    <li>
-      <strong>Opt out of tracking</strong>: On iOS, go to Settings → Privacy &amp;
-      Security → Tracking and disable tracking per app. This results in
-      non-personalized ads instead of tailored ones.
-    </li>
-    <li>
-      <strong>Withdraw advertising consent</strong>: Users in GDPR/PIPA regions may
-      withdraw consent via the in-app consent management screen or device settings.
-    </li>
-    <li>
-      <strong>Stop diagnostic data collection</strong>: To completely stop Firebase
-      Crashlytics diagnostic data collection, please uninstall the App. Crash data
-      is not linked to the advertising identifier (IDFA).
-    </li>
-    <li>
-      <strong>Questions or complaints</strong>: Please contact us at the address
-      below.
-    </li>
-  </ul>
+<p>This data is not linked to the advertising identifier (IDFA) or to your identity. See the <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> page for details.</p>
 
-  <h2>7. Children’s Privacy</h2>
-  <p>
-    The App is not directed at children under 14, and we do not knowingly collect
-    personal information from such users.
-  </p>
+<h2 id="3-purpose-of-use">3. Purpose of Use</h2>
 
-  <h2>8. Changes to This Policy</h2>
-  <p>
-    This Policy may be updated in response to legal or service changes. Material
-    changes will be announced via in-app notice or on this page in advance.
-  </p>
+<ul>
+  <li>To display banner ads in the App</li>
+  <li>To measure ad performance and detect invalid clicks</li>
+  <li>To deliver personalized ads (with your consent)</li>
+  <li>To diagnose crashes and errors and improve App stability</li>
+</ul>
 
-  <h2>9. Contact</h2>
-  <p>Privacy-related inquiries:</p>
-  <ul>
-    <li><strong>Developer</strong>: Kangseok Lee</li>
-    <li><strong>Email</strong>: <a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
-  </ul>
-</article>
+<h2 id="4-data-retention">4. Data Retention</h2>
 
-<a class="back" href="../">← FilterCraft</a>
+<h3 id="41-local-data">4.1 Local Data</h3>
+<p>All App data stored on your device — inputs, settings, and state — is automatically removed when you uninstall the App.</p>
 
-</main>
-</body>
+<h3 id="42-third-party-retention">4.2 Third-Party Retention</h3>
+<p>Retention periods for data collected by ad partners and diagnostic services are governed by their own policies. See <a href="https://policies.google.com/technologies/retention">Google Data Retention Policy</a>.</p>
+
+<h2 id="5-data-sharing">5. Data Sharing</h2>
+
+<p>The Developer does not separately share user data with third parties. Ad-related and diagnostic data is processed by Google AdMob, Google User Messaging Platform, and Firebase Crashlytics.</p>
+
+<h2 id="6-your-rights">6. Your Rights</h2>
+
+<ul>
+  <li><strong>Opt out of tracking</strong>: On iOS, go to Settings → Privacy &amp; Security → Tracking and disable tracking per app. This results in non-personalized ads instead of tailored ones.</li>
+  <li><strong>Withdraw advertising consent</strong>: Users in GDPR/PIPA regions may withdraw consent via the in-app consent management screen or device settings.</li>
+  <li><strong>Stop diagnostic data collection</strong>: To completely stop Firebase Crashlytics diagnostic data collection, please uninstall the App. Crash data is not linked to the advertising identifier (IDFA).</li>
+  <li><strong>Questions or complaints</strong>: Please contact us at the address below.</li>
+</ul>
+
+<h2 id="7-childrens-privacy">7. Children’s Privacy</h2>
+
+<p>The App is not directed at children under 14, and we do not knowingly collect personal information from such users.</p>
+
+<h2 id="8-changes-to-this-policy">8. Changes to This Policy</h2>
+
+<p>This Policy may be updated in response to legal or service changes. Material changes will be announced via in-app notice or on this page in advance.</p>
+
+<h2 id="9-contact">9. Contact</h2>
+
+<p>Privacy-related inquiries:</p>
+
+<ul>
+  <li><strong>Developer</strong>: Kangseok Lee</li>
+  <li><strong>Email</strong>: <a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
+</ul>
+
+
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/KLab-Live">KLab-Live</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+  </body>
 </html>
