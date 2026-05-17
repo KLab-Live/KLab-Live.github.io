@@ -23,7 +23,7 @@
 |---|---|---|
 | FOC Toolkit | `foc_toolkit/privacy/` | `https://klab-live.github.io/foc-toolkit-privacy/` (별도 저장소 `KLab-Live/foc-toolkit-privacy`) |
 | FilterCraft | `filtercraft/privacy/` | 이 저장소 그대로 사용 |
-| Bode Lab | (없음) | (없음) |
+| Bode Lab | `bode_lab/privacy/` | 이 저장소 그대로 사용 (App Store 미등록 상태에서 작성됨) |
 
 ## ⚠️ FOC Toolkit 개인정보 처리방침 주의사항
 
