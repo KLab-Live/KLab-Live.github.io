@@ -14,8 +14,9 @@
 - `index.html` — 앱 목록 랜딩 페이지
 - `app-ads.txt` — AdSense 인증 (`pub-4943155389049995`)
 - `foc_toolkit/` — FOC Toolkit 수식 자료 + `privacy/`
-- `bode_lab/` — Bode Lab 수식 자료 (개인정보 처리방침 없음)
+- `bode_lab/` — Bode Lab 수식 자료 + `privacy/`
 - `filtercraft/` — FilterCraft 앱 소개 + `privacy/`
+- `motordrive_envelope/` — MotorDrive_Envelope 앱 소개 + `privacy/`
 
 ## 앱별 개인정보 처리방침 호스팅 위치
 
@@ -24,6 +25,7 @@
 | FOC Toolkit | `foc_toolkit/privacy/` | `https://klab-live.github.io/foc-toolkit-privacy/` (별도 저장소 `KLab-Live/foc-toolkit-privacy`) |
 | FilterCraft | `filtercraft/privacy/` | 이 저장소 그대로 사용 |
 | Bode Lab | `bode_lab/privacy/` | 이 저장소 그대로 사용 (App Store 미등록 상태에서 작성됨) |
+| MotorDrive_Envelope | `motordrive_envelope/privacy/` | 이 저장소 그대로 사용 (App Store 미출시, Phase 2 출시 예정) |
 
 ## ⚠️ FOC Toolkit 개인정보 처리방침 주의사항
 
