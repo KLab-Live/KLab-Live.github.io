@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KLab-Live : Developer</title>
+<title>MotorDrive_Envelope — K-Lab Live</title>
+<meta name="description" content="SPMSM 모터 구동 가능 영역(operating envelope) 시각화 도구 (iOS / iPadOS)">
 <style>
   :root {
     --bg: #f7f8fb;
@@ -64,6 +65,10 @@
     margin-top: 0.35em;
   }
 
+  li.muted {
+    color: var(--muted);
+  }
+
   a {
     color: var(--accent);
     text-decoration: none;
@@ -72,43 +77,35 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .back {
+    display: inline-block;
+    margin-top: 2em;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>K-Lab Live</h1>
-  <p class="intro">iOS / macOS App 개발</p>
+  <h1>MotorDrive_Envelope</h1>
+  <p class="intro">SPMSM 모터 구동 가능 영역(operating envelope) 시각화 도구 (iOS / iPadOS)</p>
 
   <section class="section">
-    <h2>FOC Toolkit</h2>
-    <ul>
-      <li><a href="https://apps.apple.com/app/id6762969707">App Store</a></li>
-      <li><a href="./foc_toolkit/">탭별 수식 설명 자료</a></li>
-      <li><a href="https://klab-live.github.io/foc-toolkit-privacy/">개인정보 처리방침</a></li>
-    </ul>
+    <h2>소개</h2>
+    <p style="margin:0;">
+      속도 축 기준으로 토크·출력·전류·전압 4-패널 그래프를 한 화면에 보여 주어,
+      모터의 능력 곡선과 부하 운전점이 어디서 만나는지 한눈에 판단할 수 있는 엔지니어링 도구입니다.
+      데이터시트의 Nominal 운전점 검증, 인버터/모터 보호 한계 영역 음영, 프리셋 다중 저장,
+      PNG 내보내기를 지원합니다.
+    </p>
   </section>
 
   <section class="section">
-    <h2>Bode Lab</h2>
+    <h2>링크</h2>
     <ul>
-      <li><a href="./bode_lab/">탭별 수식 설명 자료</a></li>
-      <li><a href="./bode_lab/privacy/">개인정보 처리방침</a></li>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2>FilterCraft</h2>
-    <ul>
-      <li><a href="./filtercraft/">앱 소개</a></li>
-      <li><a href="./filtercraft/privacy/">개인정보 처리방침</a></li>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2>MotorDrive_Envelope</h2>
-    <ul>
-      <li><a href="./motordrive_envelope/">앱 소개</a></li>
-      <li><a href="./motordrive_envelope/privacy/">개인정보 처리방침</a></li>
+      <li class="muted">App Store (출시 예정)</li>
+      <li><a href="./privacy/">개인정보 처리방침</a></li>
     </ul>
   </section>
 
@@ -118,6 +115,8 @@
       <li><a href="mailto:ks1549@gmail.com">ks1549@gmail.com</a></li>
     </ul>
   </section>
+
+  <a class="back" href="../">← K-Lab Live 메인</a>
 </main>
 </body>
 </html>
